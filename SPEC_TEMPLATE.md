@@ -13,7 +13,6 @@ Evite explicações didáticas. Foque no **o que é o projeto** e **por que ele 
 Liste explicitamente os objetivos de aprendizado associados ao projeto.
 
 ### Hard skills
-
 - 
 
 ### Soft skills
@@ -25,17 +24,12 @@ Liste explicitamente os objetivos de aprendizado associados ao projeto.
 
 Defina com precisão os limites do projeto.
 
--
-
-
 ### Incluído no escopo
 Liste tudo o que faz parte do projeto e será considerado na avaliação.
-
 - 
 
 ### Fora do escopo
 Liste explicitamente o que **não** deve ser implementado nem avaliado.
-
 - 
 
 ---
@@ -45,9 +39,9 @@ Liste explicitamente o que **não** deve ser implementado nem avaliado.
 Descreva as funcionalidades que devem ser implementadas.
 
 Os requisitos devem ser:
-- Objetivos
-- Verificáveis
-- Escritos de forma clara
+- Objetivos  
+- Verificáveis  
+- Escritos de forma clara  
 
 Exemplo de formato:
 - O sistema deve permitir ...
@@ -70,9 +64,14 @@ Evite exigir padrões incompatíveis com o público-alvo.
 
 ## Tecnologias Sugeridas
 
-Liste as tecnologias que devem ser utilizadas destacando quais são obrigatórias e quais não são.
+Liste as tecnologias que devem ser utilizadas, deixando claro quais são **obrigatórias** e quais são **opcionais**.
 
 Se alguma tecnologia for obrigatória, justifique brevemente o motivo.
+
+**Obrigatórias**
+- 
+
+**Opcionais**
 - 
 
 ---
