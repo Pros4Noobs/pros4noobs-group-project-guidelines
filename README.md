@@ -24,6 +24,9 @@ Elas são o **ponto de partida** para projetos que geram aprendizado real e cres
 
 Este repositório define o **padrão oficial** para criação de **especificações de Projetos em Grupo** da **Pros4Noobs (P4N)**.
 
+Ele **não contém especificações de projetos em si**.  
+Seu papel é definir **como escrever boas especificações técnicas**, que vivem em repositórios `gpspec-*` próprios.
+
 O objetivo é garantir que toda especificação:
 
 - Gere aprendizado real
@@ -76,13 +79,39 @@ Ela é um **contrato técnico de aprendizado**, que deixa claro:
 
 ---
 
+## 📌 Como sugerir uma nova especificação de Projeto em Grupo
+
+Este repositório **não recebe propostas de novas especificações**.
+
+Se você tem uma ideia de projeto e gostaria de transformá-la em uma **especificação oficial de Projeto em Grupo**, siga o fluxo abaixo:
+
+1. Acesse o repositório de propostas:  
+   👉 https://github.com/Pros4Noobs/group-project-spec-requests
+2. Vá até a aba **Issues** ou acesse diretamente o link:  
+   👉 https://github.com/Pros4Noobs/group-project-spec-requests/issues/new/choose
+3. Escolha o template  
+   **“Proposta de Especificação de Projeto em Grupo (gpspec)”**
+4. Preencha o formulário com um rascunho técnico da ideia
+5. Envie a issue e aguarde a avaliação dos maintainers
+
+Se a proposta for aprovada:
+- Um repositório `gpspec-*` será criado na organização
+- A especificação completa deverá ser escrita no `README.md` desse novo repositório
+- Este guia deverá ser seguido integralmente na escrita da especificação
+
+Este fluxo garante qualidade, organização e reutilização das especificações.
+
+---
+
 ## Como criar um repositório de gpspec
 
 Cada especificação deve viver em **um repositório próprio** no GitHub.
 
 ### Padrão de nome
 
+```
 gpspec-<nome-do-projeto>-<stack-opcional>
+```
 
 
 Exemplos:
@@ -118,6 +147,7 @@ Exemplos:
 ├── README.md     # Especificação técnica do projeto
 └── assets/       # Diagramas ou imagens (opcional)
 ```
+
 
 ---
 
