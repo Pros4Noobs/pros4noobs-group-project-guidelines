@@ -13,217 +13,132 @@
 👋 **Boas-vindas à Pros4Noobs!**
 
 Se você chegou até aqui, é porque quer criar (ou melhorar) um **Projeto em Grupo** — e isso já é um ótimo sinal 🚀  
-Este repositório existe pra te ajudar a transformar uma ideia em uma **experiência real de aprendizado colaborativo**, do jeito certo.
+Este repositório existe para te ajudar a transformar uma ideia em uma **especificação técnica clara, reutilizável e justa**.
 
 Aqui, especificações não são burocracia.  
-Elas são o **ponto de partida** para projetos que geram aprendizado de verdade, boas conversas, código que faz sentido e crescimento técnico *de pessoas reais*.
-
-Se você está criando um Projeto em Grupo, este guia é o seu **mapa** 🗺️
+Elas são o **ponto de partida** para projetos que geram aprendizado real e crescimento técnico.
 
 ---
 
-## Qual é a ideia desse repositório?
+## Qual é a ideia deste repositório?
 
 Este repositório define o **padrão oficial** para criação de **especificações de Projetos em Grupo** da **Pros4Noobs (P4N)**.
 
-Nosso objetivo é simples (mas ambicioso):
+O objetivo é garantir que toda especificação:
 
-- Gerar **aprendizado real**
-- Permitir **avaliações justas**
-- Tornar o **esforço visível**
-- Incentivar colaboração saudável e crescimento técnico
-
-Nada de projetos confusos, infinitos ou impossíveis de avaliar.
+- Gere aprendizado real
+- Seja avaliável de forma justa
+- Tenha escopo claro e controlado
+- Possa ser reutilizada por vários grupos
 
 ---
 
 ## O que são Projetos em Grupo na P4N?
 
-Projetos em Grupo são experiências de **aprendizado colaborativo** dentro da Pros4Noobs.
+Projetos em Grupo são experiências de **aprendizado colaborativo** baseadas em uma **especificação técnica única**.
 
-Eles reúnem pessoas em torno de uma mesma **especificação técnica**, que define o que deve ser construído e quais critérios caracterizam uma entrega bem-sucedida.
+Essa especificação define:
+- O que deve ser construído
+- O que caracteriza uma entrega bem-sucedida
+- Como a entrega será avaliada tecnicamente
 
-A forma de execução do projeto pode variar:
-- Em alguns projetos, cada participante desenvolve sua **própria solução individual**, a partir da mesma especificação  
-- Em outros, os participantes atuam **como um time de desenvolvimento**, colaborando em um único projeto  
-
-Essa definição **não faz parte da especificação técnica**.  
-Ela é configurada diretamente na **plataforma da Pros4Noobs**, no momento da criação do Projeto em Grupo.
-
-Independentemente do formato de execução:
-- Comunicação clara é essencial  
-- O esforço individual deve ser visível  
-- Decisões técnicas devem ser explicáveis  
-
-Durante o projeto, os participantes:
-- Trabalham a partir de uma especificação comum
-- Tomam decisões técnicas
-- Erram, acertam, explicam, discutem e aprendem
-
-Ao final:
-- **Participantes** e **criadores da especificação** podem ganhar **Sparks**, com base em esforço, entrega e comunicação
-- **Guias / líderes de projeto** podem ganhar **Flares**, refletindo o impacto contínuo que geraram na comunidade
+A **forma de execução do projeto** (individual ou em grupo) **não faz parte da especificação**.  
+Ela é definida diretamente na **plataforma da Pros4Noobs**.
 
 ---
 
 ## Princípios Fundamentais
 
-Toda boa especificação na P4N respeita estes três pilares 👇
+### Impacto Pessoal
+- Desenvolvimento de hard skills técnicas
+- Exercício de soft skills (comunicação, colaboração, organização)
 
-### 1. Impacto Pessoal
-O projeto deve ajudar o participante a crescer de verdade:
-- Hard skills técnicas
-- Soft skills como comunicação, colaboração e organização
+### Impacto Coletivo
+- Colaboração entre participantes
+- Troca entre diferentes níveis
+- Produção de portfólio verificável
 
-### 2. Impacto Coletivo
-O projeto deve:
-- Incentivar colaboração
-- Permitir troca entre diferentes níveis de experiência
-- Gerar algo que possa virar **portfólio verificável**
-
-### 3. Impacto de Rede
-O projeto deve fortalecer a comunidade:
-- Compartilhando conhecimento
-- Criando referências
-- Tornando o esforço visível e reconhecível
+### Impacto de Rede
+- Compartilhamento de conhecimento
+- Criação de referências
+- Esforço visível e reconhecível
 
 ---
 
 ## Qual é o papel da especificação?
 
-A especificação **não é um tutorial**  
-(e nem deve ser).
+A especificação **não é um tutorial**.
 
 Ela é um **contrato técnico de aprendizado**, que deixa claro:
 - O que precisa ser entregue
-- O que significa “terminar o projeto”
+- Quando o projeto pode ser considerado concluído
 - Como a entrega será avaliada
 
-Uma boa especificação **não engessa soluções** — ela cria clareza.
+---
+
+## Como criar um repositório de gpspec
+
+Cada especificação deve viver em **um repositório próprio** no GitHub.
+
+### Padrão de nome
+
+gpspec-<nome-do-projeto>-<stack-opcional>
+
+
+Exemplos:
+- `gpspec-todo-list-frontend-vue`
+- `gpspec-todo-list-frontend-react`
+- `gpspec-api-gerenciamento-tarefas`
+
+### Regras importantes
+
+- O `README.md` é a **especificação técnica**
+- Não inclua código de implementação
+- Assets são opcionais (diagramas, imagens)
 
 ---
 
 ## Estrutura Obrigatória da Especificação
 
-Toda especificação de Projeto em Grupo **deve conter** as seções abaixo.
-
-Pense nisso como o mínimo necessário pra tudo funcionar bem 👇
-
----
-
-## 1. Visão Geral do Projeto
-Explique o problema, o contexto e o propósito do projeto.
-
----
-
-## 2. Objetivos de Aprendizado
-Sempre separe:
-- Hard skills
-- Soft skills
-
-Isso ajuda muito na avaliação depois.
-
----
-
-## 3. Escopo do Projeto
-
-### Incluído
-O que faz parte do projeto.
-
-### Fora do escopo
-O que **não** deve ser feito nem avaliado.
-
-Escopo bem definido evita frustração 😉
-
----
-
-## 4. Requisitos Funcionais
-Funcionalidades claras, objetivas e verificáveis.
-
----
-
-## 5. Requisitos Não Funcionais
-Qualidade mínima esperada:
-- Código
-- Organização
-- Documentação
-
----
-
-## 6. Tecnologias Sugeridas
-Tecnologias recomendadas.  
-Se algo for obrigatório, explique o porquê.
-
----
-
-## 7. Critérios de Conclusão
-Aqui não pode ter dúvida.
-
-Defina claramente quando o projeto pode ser considerado **concluído**.
-
----
-
-## 8. Avaliação e Esforço (Sparks)
-Explique como:
-- Participação
-- Comunicação
-- Entrega
-- Colaboração
-
-serão avaliadas.
-
-Lembre: **Spark representa um passo real na carreira de alguém.**
-
----
-
-## 9. Organização do Trabalho em Grupo
-Expectativas mínimas de:
-- Comunicação
-- Divisão de responsabilidades
-- Registro de decisões
-
-Sem burocracia desnecessária.
-
----
-
-## 10. Entregáveis Esperados
-Liste tudo o que deve ser entregue ao final do projeto.
-
----
-
-## O que NÃO fazer ❌
-- Não transforme a especificação em um tutorial
-- Não use critérios vagos ou subjetivos
-- Não crie projetos grandes demais para o tempo proposto
-- Não ignore avaliação e esforço
-
----
-
-## Checklist Final ✅
-Antes de publicar sua especificação, confira:
-
-- [ ] Objetivos de aprendizado claros
-- [ ] Escopo bem definido
-- [ ] Critérios de conclusão objetivos
-- [ ] Avaliação possível pelo grupo
-- [ ] Alinhamento com a visão da P4N
+1. Visão Geral do Projeto  
+2. Objetivos de Aprendizado  
+3. Escopo do Projeto  
+4. Requisitos Funcionais  
+5. Requisitos Não Funcionais  
+6. Tecnologias Sugeridas  
+7. Critérios de Conclusão  
+8. Avaliação da Entrega  
+9. Entregáveis Esperados  
 
 ---
 
 ## Estrutura do Repositório
 
-    README.md           # Especificação técnica do projeto
-    assets              # Quando necessário
+```
+├── README.md     # Especificação técnica do projeto
+└── assets/       # Diagramas ou imagens (opcional)
+```
+
+---
+
+## Checklist Final
+
+- [ ] Objetivos claros
+- [ ] Escopo definido
+- [ ] Requisitos verificáveis
+- [ ] Critérios de conclusão objetivos
+- [ ] Avaliação técnica possível
+- [ ] Especificação reutilizável
 
 ---
 
 ## TL;DR
 
-Se o grupo entende claramente:
-- o que precisa entregar
-- como será avaliado
+Se a especificação deixa claro:
+- o que deve ser construído
+- como a entrega será avaliada
 
-então a especificação está no caminho certo ✅
+então ela está pronta para ser usada em Projetos em Grupo ✅
 
 ✨ Construa com cuidado.  
 ✨ Impacte pessoas.  
